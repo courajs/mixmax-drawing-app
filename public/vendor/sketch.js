@@ -87,6 +87,10 @@ var __slice = Array.prototype.slice;
           return false;
         });
       }
+
+      var width = this.canvas.width()
+      var height = this.canvas.height()
+      this.originalContents = this.context.getImageData(0, 0, width, height)
     }
     Sketch.prototype.download = function(format) {
       var mime;
@@ -131,6 +135,7 @@ var __slice = Array.prototype.slice;
       var sketch;
       this.el.width = this.canvas.width();
       this.context = this.el.getContext('2d');
+      this.context.putImageData(this.originalContents, 0, 0)
       sketch = this;
       $.each(this.actions, function() {
         if (this.tool) {
