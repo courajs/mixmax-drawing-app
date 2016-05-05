@@ -10,4 +10,6 @@ $(function() {
       width: 500
     })
   })
+
+  $('#canvas').sketch()
 })
