@@ -21,6 +21,8 @@ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 */
 
+// http://intridea.github.io/sketch.js/
+
 var __slice = Array.prototype.slice;
 (function($) {
   var Sketch;
