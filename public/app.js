@@ -24,7 +24,7 @@ $(function() {
     var src = canvas.toDataURL()
     Mixmax.done({
       src: src,
-      width: 50
+      width: 200
     })
   })
 })
