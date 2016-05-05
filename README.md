@@ -1,6 +1,6 @@
-# Giphy Mixmax Enhancement
+# Mixmax Drawing Enhancement
 
-This is an open source Mixmax Enhancement. See <http://sdk.mixmax.com/docs/tutorial-giphy-picker> for more information about how to use this example code in Mixmax.
+This is an open source Mixmax Enhancement. See <http://sdk.mixmax.com/docs/tutorial-giphy-picker> for more information about how to make your own.
 
 ## Running locally
 
